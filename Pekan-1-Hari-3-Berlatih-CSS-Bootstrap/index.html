@@ -6,140 +6,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>Pecel Lele E commerce</title>
+    <title>Pecel Lele E-Commerce</title>
   </head>
   <body>
-    <header class="bg-success">
-        <div class="container">
-          <nav>
-              <ul class="nav justify-content-end remove-top-margin">
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Gift Card</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Track Order</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link text-white" href="#">Contact Us</a>
-                  </li>
-              </ul>
-          </nav>
-          <section class="d-flex justify-content-between">
-            <h3 class="text-white">Pecel Lele E-commerce</h3>
-            <input type="text" class="form-control width-200-px" placeholder="Search">
-          </section>
-        </div>
-    </header>
+    <div class="container-fluid">
+        <!-- navbar 1 -->
+        <ul class="nav justify-content-end  bg-success">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Gift Card</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Track Order</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact Us</a>
+            </li> 
+        </ul>
 
-    <div class="custom-container">
-      <ul class="nav justify-content-center custom-navbar">
-        <li class="nav-item">
-          <a class="nav-link text-dark active" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Shop</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#">About Us</a>
-        </li>
-      </ul>
-  
-      <div class="main">
-        <div class="section-1 card">
-          <b>Menu Lainya</b>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Telur</li>
-            <li class="list-group-item">Usus</li>
-            <li class="list-group-item">Ati Ampela</li>
-            <li class="list-group-item">Nasi Goreng Pete</li>
-            <li class="list-group-item">Nasi Goreng Kemangi</li>
-            <li class="list-group-item">Nasi Uduk</li>
-          </ul>
-        </div>
-        <div class="section-2">
-          
-          <div class="section-2-item-1 card">
-            <img src="./img/spanduk pecel lele.jpg" height="250px">
-          </div>
-
-          <div class="section-2-item-2">
-            <div class="section-2-item-2-subitem card">
-              <img class="card-img-top" src="./img/Pecel_Lele.jpg" alt="Pecel_Lele">
-              <div class="card-body">
-                <h5 class="card-title">Pecel Lele</h5>
-                <p class="card-text">Rp 12.000</p>
-                <a href="#" class="btn btn-primary">Tambah ke Keranjang</a>
-              </div>
-            </div>
-
-            <div class="section-2-item-2-subitem card">
-              <img class="card-img-top" src="./img/ayam goreng.jpg" alt="ayam goreng">
-              <div class="card-body">
-                <h5 class="card-title">Ayam Goreng</h5>
-                <p class="card-text">Rp 10.000</p>
-                <a href="#" class="btn btn-primary">Tambah ke Keranjang</a>
-              </div>
-            </div>
-
-            <div class="section-2-item-2-subitem card">
-              <img class="card-img-top" src="./img/tahu tempe.jpg" height="165px" alt="tahu tempe">
-              <div class="card-body">
-                <h5 class="card-title">Tahu Tempe</h5>
-                <p class="card-text">Rp 5.000</p>
-                <a href="#" class="btn btn-primary">Tambah ke Keranjang</a>
-              </div>
-            </div>
-
-          </div> 
-        </div>
-        <div class="section-3">
-          <div class="section-3-item-1 card">
-            <b>Outlet Kami</b>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Jakarta</li>
-              <li class="list-group-item">Bandung</li>
-              <li class="list-group-item">Surabaya</li>
-              <li class="list-group-item">Malang</li>
-            </ul>
-          </div>
-          <div class="section-3-item-2 card">
-            <form>
-              <label for=""><b>Menerima Pesanan</b></label>
-              <div class="form-group">
-                <label for="exampleInputEmail1">Alamat Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan email">
-              </div>
-              <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Masukan Password">
-              </div>
-              <button type="submit" class="btn btn-primary">Login</button>
+        <!-- navbar 2 -->
+        <nav class="navbar navbar-light justify-content-between  bg-success">
+            <a class="navbar-brand text-white"><b>Pecel Lele E-Commerce</b></a>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
-          </div>
+        </nav>
+
+        <!-- navbar 3 -->
+        <ul class="nav justify-content-center p-1 mb-2 bg-dark">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">About Us</a>
+            </li>
+        </ul>
+
+        <!-- main section -->
+        <div class="row">
+            <!-- section 1 -->
+            <div class="col-2">
+                <ul class="list-group">
+                    <li class="list-group-item bg-light"><b>Menu Lainya</b></li>
+                    <li class="list-group-item bg-light">Telur</li>
+                    <li class="list-group-item bg-light">Usus</li>
+                    <li class="list-group-item bg-light">Ati Ampela</li>
+                    <li class="list-group-item bg-light">Nasi Goreng Pete</li>
+                    <li class="list-group-item bg-light">Nasi Goreng Kemangi</li>
+                    <li class="list-group-item bg-light">Nasi Uduk</li>
+                </ul>
+            </div>
+            <!-- section 2 -->
+            <div class="col-7">
+                <!-- jumbotron -->
+                <div class="jumbotron jumbotron-fluid">
+                    <img src="./img/spanduk pecel lele.jpg" width="100%"  height="300px">
+                </div>
+                <!-- card item -->
+                <div class="row">
+
+                    <div class="col-4">
+                        <div class="card bg-light">
+                            <img class="card-img-top" src="./img/Pecel_Lele.jpg" alt="Pecel_Lele">
+                            <div class="card-body">
+                                <h5 class="card-title">Pecel Lele</h5>
+                                <p class="card-text">Rp 12.000</p>
+                                <a href="#" class="btn btn-primary">Tambah ke Keranjang</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="card bg-light">
+                            <img class="card-img-top" src="./img/ayam goreng.jpg" alt="ayam goreng">
+                            <div class="card-body">
+                                <h5 class="card-title">Ayam Goreng</h5>
+                                <p class="card-text">Rp 10.000</p>
+                                <a href="#" class="btn btn-primary">Tambah ke Keranjang</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card bg-light">
+                            <img class="card-img-top" src="./img/tahu tempe.jpg" height="165px" alt="tahu tempe">
+                            <div class="card-body">
+                                <h5 class="card-title">Tahu Tempe</h5>
+                                <p class="card-text">Rp 5.000</p>
+                                <a href="#" class="btn btn-primary">Tambah ke Keranjang</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- section 3 -->
+            <div class="col-3">
+                <!-- outlet Kami -->
+              <div class="card">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item bg-light"><b>Outlet Kami</b></li>
+                    <li class="list-group-item bg-light">Jakarta</li>
+                    <li class="list-group-item bg-light">Bandung</li>
+                    <li class="list-group-item bg-light">Surabaya</li>
+                    <li class="list-group-item bg-light">Malang</li>
+                    <li class="list-group-item bg-light">Yogyakarta</li>
+                </ul>
+              </div>
+
+              <!-- Login form -->
+              <div class="card mt-2">
+                <form class="p-3 bg-light">
+                    <label for=""><b>Menerima Pesanan</b></label>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Alamat Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukan email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Masukan Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+              </div>
+            </div>
         </div>
-      </div>
-  
+
+        <!-- footer -->
+        <footer class="mt-2 bg-dark">
+            <div class="container text-center p-4 text-white">
+                Sanber Code - 2021
+            </div>
+        </footer>
     </div>
     
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> -->
-    
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    <script>
-      $('.carousel').carousel()
-    </script>
-    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
