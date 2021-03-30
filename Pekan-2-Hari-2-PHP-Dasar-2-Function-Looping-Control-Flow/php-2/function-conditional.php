@@ -21,12 +21,14 @@
         */
 
         // Code function di sini
-
+        function greetings($name) {
+            echo "Halo $name, Selamat Datang di Sanbercode! <br>";
+        }
 
         // Hapus komentar untuk menjalankan code!
-        // greetings("Bagas");
-        // greetings("Wahyu");
-        // greetings("Abdul");
+        greetings("Bagas");
+        greetings("Wahyu");
+        greetings("Abdul");
 
         echo "<br>";
         
@@ -45,12 +47,18 @@
         */
  
         // Code function di sini 
-
+        function reverseString($string) {
+            $reverseString = "";
+            for ($i=strlen($string)-1; $i >= 0; $i--) {
+                $reverseString .= $string[$i];
+            }
+            echo "$reverseString <br>";
+        }
 
         // Hapus komentar di bawah ini untuk jalankan Code
-        // reverseString("abduh");
-        // reverseString("Sanbercode");
-        // reverseString("We Are Sanbers Developers")
+        reverseString("abduh");
+        reverseString("Sanbercode");
+        reverseString("We Are Sanbers Developers");
         echo "<br>";
 
         echo "<h3>Soal No 3 Palindrome </h3>";
@@ -71,12 +79,24 @@
 
 
         // Code function di sini
+        function palindrome($string) {
+            $reverseString = "";
+            for ($i=strlen($string)-1; $i >= 0; $i--) {
+                $reverseString .= $string[$i];
+            }
+            
+            if (strcmp($string, $reverseString) == 0) {
+                echo "true <br>";
+            } else {
+                echo "false <br>";
+            }
+        }
         
         // Hapus komentar di bawah ini untuk jalankan code
-        // palindrome("civic") ; // true
-        // palindrome("nababan") ; // true
-        // palindrome("jambaban"); // false
-        // palindrome("racecar"); // true
+        palindrome("civic") ; // true
+        palindrome("nababan") ; // true
+        palindrome("jambaban"); // false
+        palindrome("racecar"); // true
     ?>
 </body>
 </html>
